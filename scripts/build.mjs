@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import { build } from 'esbuild';
-import { stylePlugin } from 'esbuild-style-plugin';
 import fs from 'fs';
 import path from 'path';
 import { spawn } from 'child_process';
@@ -62,16 +61,6 @@ const buildOptions = {
   define: {
     'process.env.NODE_ENV': JSON.stringify(isProduction ? 'production' : 'development'),
   },
-  plugins: [
-    stylePlugin({
-      postcss: {
-        plugins: [
-          require('tailwindcss'),
-          require('autoprefixer'),
-        ],
-      },
-    }),
-  ],
   alias: {
     '@': path.resolve('./src'),
   },
