@@ -1,0 +1,61 @@
+{
+  "codebert-small": {
+    "name": "CodeBERT Small",
+    "description": "Lightweight code understanding and generation model",
+    "model_repo": "microsoft/codebert-small",
+    "type": "encoder",
+    "max_length": 512,
+    "capabilities": [
+      "code-completion",
+      "bug-detection",
+      "documentation"
+    ],
+    "size": "500MB",
+    "quantization": null,
+    "device": "auto"
+  },
+  "distilgpt2-code": {
+    "name": "DistilGPT2 Code",
+    "description": "Lightweight code generation model",
+    "model_repo": "distilgpt2",
+    "type": "decoder",
+    "max_length": 1024,
+    "capabilities": [
+      "code-generation",
+      "translation"
+    ],
+    "size": "350MB",
+    "quantization": "8bit",
+    "device": "auto"
+  },
+  "tinyllama": {
+    "name": "TinyLLaMA",
+    "description": "Small but capable language model for code",
+    "model_repo": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "type": "decoder",
+    "max_length": 2048,
+    "capabilities": [
+      "code-generation",
+      "explanation",
+      "refactoring"
+    ],
+    "size": "2.2GB",
+    "quantization": "4bit",
+    "device": "auto"
+  },
+  "starcoderbase": {
+    "name": "StarCoder Base",
+    "description": "Code generation model trained on multiple languages",
+    "model_repo": "bigcode/starcoderbase",
+    "type": "decoder",
+    "max_length": 4096,
+    "capabilities": [
+      "code-generation",
+      "translation",
+      "completion"
+    ],
+    "size": "15GB",
+    "quantization": "8bit",
+    "device": "auto"
+  }
+}
