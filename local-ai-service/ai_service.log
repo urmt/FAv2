@@ -1,0 +1,50 @@
+2025-09-05 12:25:55,114 - __main__ - INFO - Starting Local AI Service on 0.0.0.0:8000
+2025-09-05 12:25:55,144 - main - INFO - Starting Local AI Service...
+2025-09-05 12:25:55,145 - services.model_manager - INFO - ModelManager initialized with 4 models
+2025-09-05 12:25:55,145 - services.code_generator - INFO - CodeGenerator initialized
+2025-09-05 12:25:55,147 - services.code_analyzer - INFO - CodeAnalyzer initialized
+2025-09-05 12:25:55,147 - services.performance_monitor - INFO - PerformanceMonitor initialized
+2025-09-05 12:25:55,147 - services.health_checker - INFO - HealthChecker initialized
+2025-09-05 12:25:55,147 - main - INFO - All services initialized successfully
+2025-09-05 12:25:55,147 - main - INFO - Shutting down Local AI Service...
+2025-09-05 12:25:55,147 - services.model_manager - INFO - Cleaning up all models...
+2025-09-05 12:25:55,147 - services.model_manager - INFO - Cleanup complete
+2025-09-05 12:25:55,147 - main - INFO - Shutdown complete
+2025-09-05 12:30:04,293 - __main__ - INFO - Starting Local AI Service on 0.0.0.0:8001
+2025-09-05 12:30:04,317 - main - INFO - Starting Local AI Service...
+2025-09-05 12:30:04,317 - services.model_manager - INFO - ModelManager initialized with 4 models
+2025-09-05 12:30:04,317 - services.code_generator - INFO - CodeGenerator initialized
+2025-09-05 12:30:04,318 - services.code_analyzer - INFO - CodeAnalyzer initialized
+2025-09-05 12:30:04,319 - services.performance_monitor - INFO - PerformanceMonitor initialized
+2025-09-05 12:30:04,319 - services.health_checker - INFO - HealthChecker initialized
+2025-09-05 12:30:04,319 - main - INFO - All services initialized successfully
+2025-09-05 12:59:43,385 - __main__ - INFO - Starting Local AI Service on 0.0.0.0:8001
+2025-09-05 12:59:43,407 - main - INFO - Starting Local AI Service...
+2025-09-05 12:59:43,408 - services.model_manager - INFO - ModelManager initialized with 4 models
+2025-09-05 12:59:43,408 - services.code_generator - INFO - CodeGenerator initialized
+2025-09-05 12:59:43,409 - services.code_analyzer - INFO - CodeAnalyzer initialized
+2025-09-05 12:59:43,409 - services.performance_monitor - INFO - PerformanceMonitor initialized
+2025-09-05 12:59:43,409 - services.health_checker - INFO - HealthChecker initialized
+2025-09-05 12:59:43,409 - main - INFO - All services initialized successfully
+2025-09-05 13:11:25,159 - services.model_manager - INFO - Downloading model distilgpt2-code...
+2025-09-05 13:12:36,437 - services.model_manager - INFO - Model distilgpt2-code downloaded successfully
+2025-09-05 13:20:24,946 - services.model_manager - INFO - Model distilgpt2-code already downloaded
+2025-09-05 13:20:26,649 - services.model_manager - INFO - Model distilgpt2-code already downloaded
+2025-09-05 13:55:26,515 - __main__ - INFO - Starting Local AI Service on 0.0.0.0:8001
+2025-09-05 13:55:26,544 - main - INFO - Starting Local AI Service...
+2025-09-05 13:55:26,545 - services.model_manager - INFO - ModelManager initialized with 4 models
+2025-09-05 13:55:26,545 - services.code_generator - INFO - CodeGenerator initialized
+2025-09-05 13:55:26,546 - services.code_analyzer - INFO - CodeAnalyzer initialized
+2025-09-05 13:55:26,547 - services.performance_monitor - INFO - PerformanceMonitor initialized
+2025-09-05 13:55:26,547 - services.health_checker - INFO - HealthChecker initialized
+2025-09-05 13:55:26,547 - main - INFO - All services initialized successfully
+2025-09-05 13:58:51,950 - services.health_checker - INFO - Performing comprehensive health check
+2025-09-05 13:58:53,975 - services.performance_monitor - WARNING - Error getting GPU info: NVML Shared Library Not Found
+2025-09-05 13:58:55,080 - services.health_checker - INFO - Health check completed. Status: critical
+2025-09-05 13:59:46,821 - services.health_checker - INFO - Performing comprehensive health check
+2025-09-05 13:59:48,842 - services.performance_monitor - WARNING - Error getting GPU info: NVML Shared Library Not Found
+2025-09-05 13:59:49,946 - services.health_checker - INFO - Health check completed. Status: critical
+2025-09-05 14:01:24,527 - services.model_manager - ERROR - Model CodeBERT Small not found in configurations
+2025-09-05 14:01:24,527 - main - ERROR - Error downloading model CodeBERT Small: 400: Failed to download model CodeBERT Small
+2025-09-05 14:02:00,768 - services.model_manager - ERROR - Model CodeBERT Small not found in configurations
+2025-09-05 14:02:00,768 - main - ERROR - Error downloading model CodeBERT Small: 400: Failed to download model CodeBERT Small
